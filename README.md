@@ -20,4 +20,42 @@ Install the following Python libraries:
 pip install numpy matplotlib qutip pandas scipy
 
 
+## 🚀 How to Run
+Run the script directly:
+python simulation.py
 
+## 📈 Output
+
+Plot: Population dynamics
+
+## 📚 Model Description
+
+Operators:
+
+a: annihilation operator for KPO mode,
+
+b: annihilation operator for ancilla qubit.
+
+Hamiltonian:
+
+Kerr nonlinearity,
+
+Detunings (DeltaKPO, DeltaAnc),
+
+Four-photon pump (P),
+
+Ancilla coupling with time-dependent coefficient.
+
+Dissipation:
+
+KPO decay (gammaKPO),
+
+Ancilla decay (gammaANC).
+
+The dynamics are simulated in the rotating frame with constant and time-dependent terms.
+
+## ✍️ Author
+Hadis Salasi
+
+Email: hadis.salasi2000@gmail.com,
+LinkedIn: https://www.linkedin.com/in/hadis-salasi
