@@ -1,7 +1,3 @@
-# Reproduced-AQEC-code-with-Qutip
-I am Hadis Salasi. In the paper below, I reproduced the Autonomous Quantum Error Correction scheme using the Qutip library for a Kerr parametric oscillator network in dimension 16 coupled with a 2-dimensional ancillary qubit.
-The link to the corresponding paper: Kwon, Sangil, Shohei Watabe, and Jaw-Shen Tsai. "Autonomous quantum error correction in a four-photon Kerr parametric oscillator." npj Quantum Information 8, no. 1 (2022): 40.
-
 The simulation:
 
  #Importing necessary libraries
