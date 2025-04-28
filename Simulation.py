@@ -18,11 +18,15 @@ psi1 = (0.776144941 * basis(16, 1) + 0.612190015 * basis(16, 5) + 0.288521700 * 
 #1_logic
 psi2 = (0.904229459 * basis(16, 3) + 0.423327595 * basis(16, 7)+ 0.143263497  * basis(16, 11) + 0.103585320 * basis(16, 15)).unit()
 
-#initial states (density matrices) for tracking the bit flip error behaviour
+#Initial states (density matrices) for tracking the bit flip error behaviour
 rho_sys1 = ket2dm(psi1)
 rho_sys2 = ket2dm(psi2)
 
-#initial states (density matrices) of the ancillary qubit
+#Initial state (dnsity matrix) for tracking phase flip error behaviour
+psi = (psi1 + psi2) / np.sqrt(2)
+rho_sys = ket2dm(psi)
+
+#Initial states (density matrices) of the ancillary qubit
 rho_anc = ket2dm(basis(2, 0))
 
 #initial coupled density matrices
